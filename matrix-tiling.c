@@ -19,7 +19,7 @@
 #include <time.h>
 
 #define Total_SIZE 1024 * 1024
-#define BLOCK_SIZE 32
+#define BLOCK_SIZE 64
 
 void multiply(int n, const double *restrict A, const double *restrict B,
               double *restrict C) {
