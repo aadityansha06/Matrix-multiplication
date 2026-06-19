@@ -1,5 +1,12 @@
                             /*
                                   Final matrix with tiling
+
+                                  compile ->  gcc -O3 -march=native -fopenmp matrix-tiling.c -o matrix-block
+                                
+
+                                  run ->sudo perf stat -e cycles,instructions,cache-references,cache-misses,L1-dcache-loads,L1-dcache
+-load-misses ./matrix-block
+ 
                            */
 
 #define _POSIX_C_SOURCE 199309L
