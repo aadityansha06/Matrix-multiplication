@@ -73,10 +73,10 @@ int main() {
     B[i] = 3.0;
   }
   printf("\n\tMatrix multiplication with "
-         "Tiling,alligned_alloc,padding-8rows and rest previous "
+         "Tiling,alligned_alloc,padding-8-bytes and rest previous "
          "optimisation \n");
 
-  printf("\nStarting benchmark for %d x %d matrix...\n", n, n);
+  printf("\nStarting benchmark for %d+ x %d matrix...\n", n, n);
   clock_gettime(CLOCK_MONOTONIC, &start);
   multiply(n,stride, A, B, C);
   clock_gettime(CLOCK_MONOTONIC, &end);
