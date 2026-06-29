@@ -43,7 +43,7 @@ int main() {
        Formula: C = alpha * A * B + beta * C
     */
     cblas_dgemm(
-        CblasRowMajor, // Our matrices are stored row-by-row in C
+        CblasRowMajor,
         CblasNoTrans,  // Do not transpose A
         CblasNoTrans,  // Do not transpose B
         n,             // Rows of A and C
@@ -69,7 +69,7 @@ int main() {
     double operations = 2.0 * (double)n * (double)n * (double)n;
     double achieved_gflops = operations / (time_taken * 1e9);
     
-    // Your theoretical ceiling
+
     double theoretical_gflops = 52.8; 
     double efficiency = (achieved_gflops / theoretical_gflops) * 100.0;
     
