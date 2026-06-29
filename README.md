@@ -71,4 +71,9 @@ If you're interested, I can also publish a detailed write-up covering the exact 
 
 Feel free to explore, modify, benchmark, or improve it.
 
+Reach me out at <br>
+<a href="https://t.me/aadityansha">Telegram</a>
+<br><a href="https://x.com/aadityansha_06">X/Twitter</a><br>
+Email: vermaadityansh@gmail.com<br>
+
 Keep learning :>
