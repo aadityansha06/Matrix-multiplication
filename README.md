@@ -1,4 +1,4 @@
-# Matrix Multiplication: Bare-Metal AVX vs. OpenBLAS
+# Matrix Multiplication: An execution analysis
 
 A bottom-up exploration of high-performance computing in C.
 
