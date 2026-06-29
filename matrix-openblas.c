@@ -44,19 +44,19 @@ int main() {
     */
     cblas_dgemm(
         CblasRowMajor,
-        CblasNoTrans,  // Do not transpose A
-        CblasNoTrans,  // Do not transpose B
-        n,             // Rows of A and C
-        n,             // Columns of B and C
-        n,             // Columns of A, Rows of B
-        1.0,           // Alpha multiplier (1.0)
+        CblasNoTrans,  
+        CblasNoTrans,  
+        n,             
+        n,             
+        n,             
+        1.0,           
         A,             // Matrix A
-        n,             // Leading dimension of A
+        n,             
         B,             // Matrix B
-        n,             // Leading dimension of B
-        0.0,           // Beta multiplier (0.0 to overwrite C)
+        n,             
+        0.0,           
         C,             // Matrix C
-        n              // Leading dimension of C
+        n              
     );
     
     clock_gettime(CLOCK_MONOTONIC, &end);
