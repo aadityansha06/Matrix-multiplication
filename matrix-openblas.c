@@ -65,7 +65,7 @@ int main() {
     
     printf("\nFunction took %f seconds to execute.\n", time_taken);
     
-    // Calculating GFLOPS for your specific hardware
+   
     double operations = 2.0 * (double)n * (double)n * (double)n;
     double achieved_gflops = operations / (time_taken * 1e9);
     
